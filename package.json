@@ -9,7 +9,7 @@
     "@gouvfr/dsfr": "^1.11.2",
     "@polight/lego": "^2.0.0-beta.8",
     "@polight/store": "^0.0.1",
-    "express": "^4.19.2",
+    "express": "^4.20.0",
     "navigo": "^8.11.1",
     "urql": "^4.1.0"
   },
