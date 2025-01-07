@@ -74,6 +74,7 @@ const actions = {
             max_attendees
             department
             region
+            city
             availability
             start_date
             end_date
