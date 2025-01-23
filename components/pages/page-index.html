@@ -58,52 +58,6 @@
           </div>
         </div>
       </div>
-
-      <div class="fr-col-12 fr-container">
-        <h2>Vous ne trouvez pas de chantier à proximité de votre établissement ?</h2>
-        <p>
-          Remplissez le formulaire ci-dessous et nous reviendrons vers vous avec des propositions d'activités pédagogiques.
-        </p>
-
-        <form class="fr-grid-row" @submit="sendMail">
-          <div class="fr-col-6 fr-p-2v">
-            <label class="fr-label" for="contact_name_input">Nom / Prénom</label
-            ><input class="fr-input" type="text" id="contact_name_input" name="contact_name" required />
-          </div>
-          <div class="fr-col-6 fr-p-2v">
-            <label class="fr-label" for="email_input">Mail</label
-            ><input class="fr-input" type="email" id="email_input" name="email" required />
-          </div>
-          <div class="fr-col-6 fr-p-2v">
-            <label class="fr-label" for="phone_input">Téléphone</label
-            ><input class="fr-input" type="tel" id="phone_input" name="phone" required />
-          </div>
-          <div class="fr-col-6 fr-p-2v">
-            <label class="fr-label" for="city_input">Commune de l’établissement</label
-            ><input class="fr-input" type="text" id="city_input" name="city" required />
-          </div>
-          <div class="fr-col-6 fr-p-2v">
-            <label class="fr-label" for="school_name_input">Nom de l'établissement</label
-            ><input class="fr-input" type="text" id="school_name_input" name="school_name" required />
-          </div>
-          <div class="fr-col-6 fr-p-2v">
-            <label class="fr-label" for="department_input">Département de l'établissement</label
-            ><input class="fr-input" type="text" id="department_input" name="department" required />
-          </div>
-          <div class="fr-col-12 fr-p-2v">
-            <p class="fr-text--sm fr-text--info">Ces informations sont confidentielles et ne seront utilisées que pour vous contacter dans le cadre de l'organisation de la sortie.</p>
-          </div>
-          <div class="fr-col-12 fr-py-2v">
-            <button type="submit" class="fr-btn fr-btn--primary">Envoyer ma demande</button>
-          </div>
-        </form>
-
-        <div :if="state.sent" class="fr-alert fr-alert--success">
-          <h3 class="fr-alert__title">Votre demande est envoyée</h3>
-          <p>Vous serez très prochainement recontacté par l'organisateur du chantier.</p>
-        </div>
-
-      </div>
     </section>
 
     <section>
